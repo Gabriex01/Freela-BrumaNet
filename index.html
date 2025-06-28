@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BrumaNet - Telecom</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+  <body>
+
+<!--Menu Fixo!-->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div style="flex: 1; display: flex; align-items: center;">
+                <img src="brumanet.avif" alt="Logo" style="height: 40px; border-radius: 50%;">
+            </div>
+            <div class="nav-links">
+                <a href="#home">Início</a>
+                <a href="#planos">Planos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </div>
+    </nav>
+<div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Hero com Carrossel -->
+    <section class="hero-section" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>BrumaNet</h1>
+                <h2>Especialista e soluções empresariais e rurais<br> Pioneira em Brumadinho e região.</h2>
+                <p>Nossa empresa está no mercado desde 2001, atendendo com total qualidade, honestidade e transparência. Entregamos sua internet com a real velocidade contratada.</p>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel" id="carousel">
+                    <div class="carousel-slide" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'%3E%3Crect width=\'400\' height=\'300\' fill=\'%2300d4ff\'/%3E%3Ctext x=\'200\' y=\'150\' text-anchor=\'middle\' fill=\'white\' font-size=\'20\' font-weight=\'bold\'%3EFibra Óptica%3C/text%3E%3C/svg%3E');">
+                        Tecnologia Fibra Óptica
+                    </div>
+                    <div class="carousel-slide" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'%3E%3Crect width=\'400\' height=\'300\' fill=\'%232a5298\'/%3E%3Ctext x=\'200\' y=\'150\' text-anchor=\'middle\' fill=\'white\' font-size=\'20\' font-weight=\'bold\'%3ESuporte 24h%3C/text%3E%3C/svg%3E');">
+                        Suporte 24 Horas
+                    </div>
+                    <div class="carousel-slide" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'400\' height=\'300\' viewBox=\'0 0 400 300\'%3E%3Crect width=\'400\' height=\'300\' fill=\'%231e3c72\'/%3E%3Ctext x=\'200\' y=\'150\' text-anchor=\'middle\' fill=\'white\' font-size=\'20\' font-weight=\'bold\'%3EInstalação Grátis%3C/text%3E%3C/svg%3E');">
+                        Instalação Gratuita
+                    </div>
+                </div>
+                <div class="carousel-nav">
+                    <div class="carousel-dot active" onclick="goToSlide(0)"></div>
+                    <div class="carousel-dot" onclick="goToSlide(1)"></div>
+                    <div class="carousel-dot" onclick="goToSlide(2)"></div>
+                    <div class="carousel-dot" onclick="goToSlide(3)"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Login -->
+        <div class="login-container">
+            <div class="login-card">
+                <h3>Já é nosso cliente?</h3>
+                <a href="#" class="login-btn">Acessar Minha Conta</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Planos -->
+    <section class="plans-section" id="planos">
+        
+        <div class="plans-container">
+            <h2 class="plans-title">Planos e Assinatura</h2>
+            <h3>Temos um plano ideal para você. Na BrumaNet você pode personalizar seu 
+            plano de acordo com a sua necessidade. Fornecemos IP público. Temos IPV4 e IPV6 em toda nossa rede. Um deles cabe no seu bolso.</h3>
+        <br>
+            <div class="plans-grid">
+                <div class="plan-card">
+                    <div class="plan-name">Planos para Youtube, Netflix, Spotify</div>
+                    <div class="plan-speed">__ MB</div>
+                    <div class="plan-price">R$ 00,00/mês</div>
+                    <ul class="plan-features">
+                        <li>Download até 50 Mbps</li>
+                        <li>Upload até 25 Mbps</li>
+                        <li>Instalação gratuita</li>
+                        <li>Suporte técnico</li>
+                    </ul>
+                    <a href="#" class="plan-btn">Contratar Agora</a>
+                </div>
+
+                <div class="plan-card featured">
+                    <div class="plan-name">Planos para dispositivos Móveis</div>
+                    <div class="plan-speed">__ MB</div>
+                    <div class="plan-price">R$ 00,00/mês</div>
+                    <ul class="plan-features">
+                        <li>Download até 100 Mbps</li>
+                        <li>Upload até 50 Mbps</li>
+                        <li>Instalação gratuita</li>
+                        <li>Suporte técnico 24h</li>
+                    </ul>
+                    <a href="#" class="plan-btn">Contratar Agora</a>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-name">Planos para Jogos</div>
+                    <div class="plan-speed">__ MB</div>
+                    <div class="plan-price">R$ 00,00/mês</div>
+                    <ul class="plan-features">
+                        <li>Download até 200 Mbps</li>
+                        <li>Upload até 100 Mbps</li>
+                        <li>Instalação gratuita</li>
+                        <li>Suporte técnico 24h</li>
+                        <li>Wi-Fi premium</li>
+                    </ul>
+                    <a href="#" class="plan-btn">Contratar Agora</a>
+                </div>
+
+                <div class="plan-card">
+                    <div class="plan-name">Planos Empresarial</div>
+                    <div class="plan-speed">__ MB</div>
+                    <div class="plan-price">R$ 00,00/mês</div>
+                    <ul class="plan-features">
+                        <li>Download até 500 Mbps</li>
+                        <li>Upload até 250 Mbps</li>
+                        <li>Instalação gratuita</li>
+                        <li>Suporte técnico 24h</li>
+                        <li>Wi-Fi empresarial</li>
+                    </ul>
+                    <a href="#" class="plan-btn">Contratar Agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+  <script type="Portifolio/script.js"></script>
+ </body>
+</html>
